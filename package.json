@@ -1,0 +1,13 @@
+{
+  "name":"node-pong",
+  "version":"1",
+  "dependencies": {
+      "express": "3.0.x",
+      "passport": "0.1.15",
+      "socket.io":"0.9.11"
+      },
+  "engines": {
+      "node": "0.8.x",
+      "npm":"1.1.x"
+  }
+}
