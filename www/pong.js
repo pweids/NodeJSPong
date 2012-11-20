@@ -55,6 +55,8 @@ pongApp.prototype.initPaddle = function(){
 }
 
 pongApp.prototype.initSocket = function() {
+    
+    //Change the below URL to the proper URL for the socket server
     this.socket = io.connect('http://paulw-laptop.wv.cc.cmu.edu:3000/');
     this.socket.on('receive', (function(data) {
         // update the DOM with received data

@@ -3,6 +3,7 @@ var Accelerometer = function(player){
     this.y = 0;
     this.z = 0;
     this.player = player;
+    //Change below URL to proper URL for socket server
     this.socket = io.connect('http://paulw-laptop.wv.cc.cmu.edu:3000/');
 }
 
